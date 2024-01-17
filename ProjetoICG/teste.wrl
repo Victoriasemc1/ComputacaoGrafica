@@ -1,0 +1,151 @@
+#VRML V2.0 utf8
+# ----------------------------------------------------------------
+# Cena criada em 19, outubro de 2022 às 09:25
+# ---------------------------------------------------------------
+
+ NavigationInfo
+ {
+      headlight TRUE
+      type ["EXAMINE"]
+  }
+ 
+
+Transform {
+rotation 0 0 0 0  translation 0 0 0  scaleOrientation 0 0 0 0 center 0 0 0 scale 0.2 0.2 0.2
+  children [
+
+#Pernas cadeira
+
+
+Transform { rotation 0 0 0 0  translation -3 0 0  scaleOrientation 0 0 0 0 center 0 0 0   children[Shape {
+  appearance Appearance {
+       texture ImageTexture {
+           url ["C:\CenasFigura\madeira_preta.jpg"]
+       }
+     material Material {
+         diffuseColor     1 0 0
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 0.5 1.3 0.5}
+ }]}
+
+Transform { rotation 0 0 0 0  translation -3 0 6  scaleOrientation 0 0 0 0 center 0 0 0   children[Shape {
+  appearance Appearance {
+       texture ImageTexture {
+           url ["C:\CenasFigura\madeira_preta.jpg"]
+       }
+     material Material {
+         diffuseColor     1 1 1 
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 0.5 1.3  0.5}
+ }]}
+
+Transform { rotation 0 0 0 0  translation 3 0 0  scaleOrientation 0 0 0 0 center 0 0 0   children[Shape {
+  appearance Appearance {
+       texture ImageTexture {
+           url ["C:\CenasFigura\madeira_preta.jpg"]
+       }
+     material Material {
+         diffuseColor     0 1 0
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 0.5 1.3  0.5}
+ }]}
+
+Transform { rotation 0 0 0 0  translation 3 0 6  scaleOrientation 0 0 0 0 center 0 0 0   children[Shape {
+  appearance Appearance {
+       texture ImageTexture {
+           url ["C:\CenasFigura\madeira_preta.jpg"]
+       }
+     material Material {
+         diffuseColor     0 0 1
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 0.5 1.3  0.5}
+ }]}
+
+#Apoio de madeira
+
+
+Transform { rotation 0 0 0  0 translation 0 0.91 3  scaleOrientation 0 0 0 0 center 0 0 0   children[Shape {
+  appearance Appearance {
+       texture ImageTexture {
+           url ["C:\CenasFigura\madeira_preta.jpg"]
+       }
+     material Material {
+         diffuseColor     0 0 1
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {   size 6.5 0.5 6.5 }
+ }]}
+
+#Apoio Travesseiro encosto
+
+
+Transform { rotation 0 0 0  0 translation -2.2 4.4 3  scaleOrientation 0 0 0 0 center 0 0 0   children[Shape {
+  appearance Appearance {
+       texture ImageTexture {
+           url ["C:\CenasFigura\sofa_vermelho.jpg"]
+       }
+     material Material {
+         diffuseColor     0 0 1
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {   size 2 6.5  6.5 }
+ }]}
+
+#Apoio travesseiro assento
+
+
+Transform { rotation 0 0 0  0 translation 0 2 3  scaleOrientation 0 0 0 0 center 0 0 0   children[Shape {
+  appearance Appearance {
+       texture ImageTexture {
+           url ["C:\CenasFigura\sofa_vermelho.jpg"]
+       }
+     material Material {
+         diffuseColor     0 0 1
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {   size 6.5 2 6.5  }
+ }]}
+]
+}
+
+ 
+

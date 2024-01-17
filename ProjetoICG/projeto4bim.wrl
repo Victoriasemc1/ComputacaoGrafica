@@ -1,0 +1,284 @@
+#VRML V2.0 utf8
+# ----------------------------------------------------------------
+# Cena criada em 30, outubro de 2022 às 21:51
+# ---------------------------------------------------------------
+
+ NavigationInfo
+ {
+      headlight TRUE
+      type ["EXAMINE"]
+  }
+#Parede com Cortina
+
+
+Transform { rotation 0 0.3 0 0.30 translation 0.375 0 -4  scaleOrientation 0 0 0 0 center 0 0 0  scale .5 .5 .5 children[Shape {
+  appearance Appearance {
+	texture ImageTexture {
+           url ["C:\CenasFigura\cortina.png"]
+       }
+     material Material {
+         diffuseColor     0 1 0
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 10 10 0}
+ }]}
+
+#Parede Branca
+
+
+Transform { rotation 0 0.9 0 1.57   translation -2 0 -0.7535  scaleOrientation 0 0 0 0 center 0 0 0  scale .5 .5 .5 children[Shape {
+  appearance Appearance {
+texture ImageTexture {
+           url ["C:\vrml\peach-gradient.jpg"]
+       }
+     material Material {
+         diffuseColor     1 1 1
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 10 10 0}
+ }]}
+
+#Chao
+
+
+Transform { rotation -10 2 1.95  1.57
+ translation 1 -2.6 -1 scaleOrientation 0 0 0 0 center 0 0 0  scale .5 .5 .5 children[Shape {
+  appearance Appearance {
+texture ImageTexture {
+           url ["C:\CenasFigura\chao.jpg"]
+       }
+     material Material {
+         diffuseColor     1 0 0
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 10 10 0}
+ }]}
+
+#Quadro 1
+
+
+#moldura
+Transform { rotation 0 0.9 0 1.57   translation -1.999 1.5 0.3  scaleOrientation 0 0 0 0 center 0 0 0  scale .2 .2 .2 children[Shape {
+  appearance Appearance {
+     material Material {
+         diffuseColor     0 1 0
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 2.4 3 0.1}
+ }]}
+
+#foto
+Transform { rotation 0 0.9 0 1.57   translation -1.977  1.5 0.3  scaleOrientation 0 0 0 0 center 0 0 0  scale .2 .2 .2  children[Shape {
+  appearance Appearance {
+texture ImageTexture {
+           url ["C:\CenasFigura\quadro1.jpg"]
+       }
+     material Material {
+         diffuseColor     1 0 0
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 2 2.7  .1}
+ }]}
+
+#Quadro 2
+
+#moldura
+Transform { rotation 0 0.9 0 1.57   translation -1.999 1.5 -0.4  scaleOrientation 0 0 0 0 center 0 0 0  scale .2 .2 .2 children[Shape {
+   appearance Appearance {
+     material Material {
+         diffuseColor     0 1 0
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 2.5 2.5 0.1}
+ }]}
+
+#foto
+Transform { rotation 0 0.9 0 1.57   translation -1.977  1.5 -0.4 scaleOrientation 0 0 0 0 center 0 0 0  scale .2 .2 .2  children[Shape {
+  appearance Appearance {
+texture ImageTexture {
+           url ["C:\CenasFigura\quadro2.jpg"]
+       }
+     material Material {
+         diffuseColor     1 0 0
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 2.2 2.2  .1}
+ }]}
+
+#Quadro 3 e 4
+
+#moldura 1
+Transform { rotation 0 0.9 0 1.57   translation -1.999 .65 0.6  scaleOrientation 0 0 0 0 center 0 0 0  scale .2 .2 .2 children[Shape {
+   appearance Appearance {
+     material Material {
+         diffuseColor     0 1 0
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 2.9 3.5 0.1}
+ }]}
+#1.5 0.3
+#foto 1
+Transform { rotation 0 0.9 0 1.57   translation -1.977  .65 0.6  scaleOrientation 0 0 0 0 center 0 0 0  scale .2 .2 .2  children[Shape {
+  appearance Appearance {
+texture ImageTexture {
+           url ["C:\CenasFigura\quadro3.jpg"]
+       }
+     material Material {
+         diffuseColor     1 0 0
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 2.5 3.2 .1}
+ }]}
+
+#moldura 2
+Transform { rotation 0 0.9 0 1.57   translation -1.999 .75 -0.2  scaleOrientation 0 0 0 0 center 0 0 0  scale .2 .2 .2 children[Shape {
+   appearance Appearance {
+     material Material {
+         diffuseColor     0 1 0
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 2.9 3.5 0.1}
+ }]}
+
+#foto 2
+Transform { rotation 0 0.9 0 1.57   translation -1.977 .75 -0.2  scaleOrientation 0 0 0 0 center 0 0 0  scale .2 .2 .2  children[Shape {
+  appearance Appearance {
+texture ImageTexture {
+           url ["C:\CenasFigura\quadro4.jpg"]
+       }
+     material Material {
+         diffuseColor     1 0 0
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 2.5 3.2 .1}
+ }]}
+
+#Quadro 5
+
+
+#moldura 
+Transform { rotation 0 0.9 0 1.57   translation -1.9990.7 -1  scaleOrientation 0 0 0 0 center 0 0 0  scale .2 .2 .2 children[Shape {
+   appearance Appearance {
+     material Material {
+         diffuseColor     0 1 0
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 3.1 2.5  0.1}
+ }]}
+
+#foto 
+Transform { rotation 0 0.9 0 1.57   translation -1.977  0.7 -1  scaleOrientation 0 0 0 0 center 0 0 0  scale .2 .2 .2  children[Shape {
+  appearance Appearance {
+texture ImageTexture {
+           url ["C:\CenasFigura\quadro5.jpg"]
+       }
+     material Material {
+         diffuseColor     1 0 0
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 2.9 2.2 .1}
+ }]}
+
+#Quadro 6
+
+
+#moldura 
+Transform { rotation 0 0.9 0 1.57   translation -1.999 0  -0.5  scaleOrientation 0 0 0 0 center 0 0 0  scale .2 .2 .2 children[Shape {
+   appearance Appearance {
+     material Material {
+         diffuseColor     0 1 0
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 1.8 2.1 0.1}
+ }]}
+
+#foto 
+Transform { rotation 0 0.9 0 1.57   translation -1.977 0  -0.5  scaleOrientation 0 0 0 0 center 0 0 0  scale .2 .2 .2  children[Shape {
+  appearance Appearance {
+texture ImageTexture {
+           url ["C:\CenasFigura\Quadro6.jpg"]
+       }
+     material Material {
+         diffuseColor     1 0 0
+         emissiveColor    0 0 0
+         specularColor    0 0 0
+         ambientIntensity 0
+         shininess        0
+         transparency     0
+       }
+  }
+     geometry Box {  size 1.5 1.9 .1}
+ }]}
+
+#Sofa
+
